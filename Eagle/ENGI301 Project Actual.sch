@@ -1842,7 +1842,7 @@ Sizes: 0402, 0603 &amp; 0805</description>
 <instance part="GND9" gate="1" x="309.88" y="48.26"/>
 <instance part="GND10" gate="1" x="299.72" y="50.8"/>
 <instance part="GND11" gate="1" x="200.66" y="165.1"/>
-<instance part="GND12" gate="1" x="134.62" y="167.64"/>
+<instance part="GND12" gate="1" x="134.62" y="170.18"/>
 <instance part="GND13" gate="1" x="111.76" y="116.84"/>
 <instance part="GND14" gate="1" x="48.26" y="99.06"/>
 <instance part="GND15" gate="1" x="12.7" y="147.32"/>
@@ -1997,7 +1997,7 @@ Sizes: 0402, 0603 &amp; 0805</description>
 <pinref part="U$10" gate="G$1" pin="-"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="139.7" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="175.26" x2="134.62" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="175.26" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@3"/>

@@ -836,7 +836,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <element name="C2" library="ENGI301 Project 2a" package="C0603" value="10uF" x="141.974" y="19.166" rot="R357.4"/>
 <element name="C3" library="ENGI301 Project 2a" package="C0603" value="0.1uF" x="147.832" y="19.166" rot="R180"/>
 <element name="R1" library="ENGI301 Project 2a" package="R0603" value="2.2k" x="134.832" y="25.936"/>
-<element name="R2" library="ENGI301 Project 2a" package="R0603" value="2.2k" x="128.796" y="36.298"/>
+<element name="R2" library="ENGI301 Project 2a" package="R0603" value="2.2k" x="128.796" y="40.362"/>
 <element name="R3" library="ENGI301 Project 2a" package="R0603" value="1k" x="124.06" y="24.33"/>
 <element name="R4" library="ENGI301 Project 2a" package="R0603" value="1k" x="124.25" y="19.25"/>
 <element name="R5" library="ENGI301 Project 2a" package="R0603" value="1k" x="122.9" y="14.17"/>
@@ -924,7 +924,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <wire x1="129.54" y1="33.528" x2="129.54" y2="34.671" width="0.127" layer="1"/>
 <wire x1="129.54" y1="34.671" x2="129.54" y2="36.195" width="0.127" layer="1"/>
 <wire x1="128.524" y1="32.512" x2="129.54" y2="33.528" width="0.127" layer="1"/>
-<wire x1="129.54" y1="36.195" x2="129.5961" y2="36.298" width="0.127" layer="1"/>
+<wire x1="129.54" y1="36.195" x2="129.5961" y2="40.362" width="0.127" layer="1"/>
 <wire x1="146.05" y1="29.718" x2="145.796" y2="29.718" width="0.127" layer="1"/>
 <wire x1="146.304" y1="29.972" x2="146.05" y2="29.718" width="0.127" layer="1"/>
 <wire x1="146.304" y1="31.75" x2="146.304" y2="29.972" width="0.127" layer="1"/>
@@ -1255,7 +1255,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <wire x1="128.778" y1="35.433" x2="128.778" y2="35.179" width="0.127" layer="1"/>
 <wire x1="128.016" y1="36.195" x2="128.778" y2="35.433" width="0.127" layer="1"/>
 <wire x1="143.129" y1="32.258" x2="143.2" y2="32.21" width="0.127" layer="1"/>
-<wire x1="128.016" y1="36.195" x2="127.9959" y2="36.298" width="0.127" layer="1"/>
+<wire x1="128.016" y1="36.195" x2="127.9959" y2="40.362" width="0.127" layer="1"/>
 <wire x1="39.243" y1="8.255" x2="37.973" y2="8.255" width="0.127" layer="16"/>
 <wire x1="42.545" y1="11.557" x2="39.243" y2="8.255" width="0.127" layer="16"/>
 <wire x1="122.682" y1="11.557" x2="42.545" y2="11.557" width="0.127" layer="16"/>
