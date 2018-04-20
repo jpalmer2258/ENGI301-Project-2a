@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1179,21 +1179,6 @@ ARRAY</text>
 <pin name="SYS_VDD1_5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="4.064" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="MOD-LED8X8RGB-MODEL">
-<wire x1="27.94" y1="22.86" x2="53.34" y2="22.86" width="0.254" layer="94"/>
-<wire x1="53.34" y1="22.86" x2="53.34" y2="0" width="0.254" layer="94"/>
-<wire x1="53.34" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
-<text x="38.1" y="12.7" size="2.54" layer="94" align="center">8 x 8
-LED
-ARRAY</text>
-<text x="27.94" y="25.4" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
-<text x="27.94" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="27.94" y1="22.86" x2="27.94" y2="0" width="0.254" layer="94"/>
-<wire x1="25.4" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
-<wire x1="25.4" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
-<wire x1="25.4" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="25.4" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MPU-9250" prefix="U" uservalue="yes">
@@ -1692,18 +1677,6 @@ Sizes: 0402, 0603 &amp; 0805</description>
 <deviceset name="VDD_5V" prefix="SUPPLY">
 <gates>
 <gate name="G$2" symbol="VDD_5V" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOD-LED8X8RGB-MODEL">
-<gates>
-<gate name="G$1" symbol="MOD-LED8X8RGB-MODEL" x="-25.4" y="-5.08"/>
 </gates>
 <devices>
 <device name="">
